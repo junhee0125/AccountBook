@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- css/js/img 는 static 폴더에서부터 경로 시작 하므로 (static)생략 -->
+    <link href="/accountbook.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="todowrap"> <!--전체구역 -->
+    <h1> Account Book </h1>
+    <div class="todo_top"> <!--쓰기 구역 -->
+        <input class="acontent" type="text" placeholder="항목"/>
+        <input class="acost" type="text" placeholder="금액"/>
+        <button onclick="save()" type="button"> 등록 </button>
+    </div>
+
+    <div class="todo_bottom"> <!-- 출력 구역 -->
+
+    </div>
+</div>
+<!-- 모달영역 -->
+<div class="modalwrap ">
+
+
+</div>
+
+<script src="https://code.jquery.com/jquery-latest.min.js" > </script>
+<script src="/accountbook.js"> </script>
+
+</body>
+</html>
